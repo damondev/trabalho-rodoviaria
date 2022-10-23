@@ -10,6 +10,12 @@
     margin:0 auto;
     padding:0 2%;
 }
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
 header{
     height: 200px;
     padding: 20px 0;
@@ -48,21 +54,16 @@ header{
     padding-bottom: 10px;
 }
 #textlogin:hover{
-    background-color: #f2e7dc;
+    background-color: lightblue;
 }
-.texthorario{
+.textfundacao{
     margin-top: 70px;
 }
-.texthorario h1{
+.textfundacao h1{
     text-align: center;
     color:#005C53;
     margin-left: 20px;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.texthorario h3{
-    margin-left: 20px;
-    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .paragrafoum{
@@ -70,19 +71,14 @@ header{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.textendereco{
+.textprincipios{
     margin-top: 70px;
 }
-.textendereco h1{
+.textprincipios h1{
     text-align: center;
     color:#C43302;
     margin-left: 20px;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.textendereco h3{
-    margin-left: 20px;
-    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .paragrafodois{
@@ -90,17 +86,11 @@ header{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.textperguntas h1{
+.textatualmente h1{
     text-align: center;
     color:#0B2B40;
     margin-left: 20px;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.textperguntas h3{
-    margin-left: 20px;
-    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .paragrafotres{
@@ -115,5 +105,8 @@ footer{
     width: 100%;
     background-color: #0B2B40;
     color: white;
+    text-align: center;
+}
+.terminal{
     text-align: center;
 }
